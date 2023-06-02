@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-element{
+    @apply bg-containerbackground text-2xl flex items-center justify-center text-center;
+}
+
+.nav-item{
+    @apply mr-5 hover:underline;
+}
+
+.body{
+    @apply flex flex-col h-[100vh] m-0 pt-8 pb-8 font-sans text-base leading-6 bg-body text-[#000073];
+}

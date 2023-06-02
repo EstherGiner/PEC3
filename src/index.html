@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <include src="./views/head_tag.html"></include>
+  <body class="body">
+   
+    <include src="./views/header.html"></include>
+    <div class="max-w-[800px] m-auto p-8 rounded-[2rem] text-center bg-white shadow-lg mt-10">
+      
+      <include src="./views/uoc_logo.html"></include>
+
+      <h1 class="font-serif text-3xl font-bold"><i class="fa-solid fa-chess-rook"></i> Club de Ajedrez UOC te invita</h1>
+      <!--Bloque -->
+      <div class="grid h-[100vh] gap-2 grid-cols-4 grid-rows-2">
+         <!--Elemento-->
+        <div class="row-span-2 grid-element">
+        <p class="">Un club de ajedrez es una base organizativa que se encuentran en la mayoría de los países del mundo.  La idea es convertir a los aficinaodos a un club que tendrá competencias</p>
+        </div>
+        <div class="row-span-1 col-span-2 grid-element">
+          <p class=""> El club de ajedrez UOC tiene el agrado de invitarlo a participar en el primer torneo de ajedrez organizado, en el cual podrás ganar premios sorpresas y monetarios.  Inscríbete en el siguiente botón</p>
+          </div>
+        <div class="row-span-1 col-span-1 grid-element">
+          <button class="items-center border-[1px] rounded-[30px] bg-white p-4 text-[#333] text-base font-bold font-sans hover:bg-body hover:text-red-700 ">Incripción</button>
+        </div>
+        <div class="row-span-1 col-span-3 grid-element"><img class="align-middle" src="./assets/images/ajedrez.jpg?width=450"/></div>
+      </div>
+
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>

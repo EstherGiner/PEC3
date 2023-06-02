@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <include src="./views/head_tag.html"></include>
+  <body class="body">
+    <include src="./views/header.html"></include>
+    <div class="max-w-[800px] m-auto p-8 rounded-[2rem] text-center bg-white shadow-lg mt-10">
+      <include src="./views/uoc_logo.html"></include>
+      <h1 class="font-serif text-3xl font-bold"><i class="fa-solid fa-chess-rook"></i> Miembros del Club de Ajedrez UOC</h1>
+      <!--Bloque -->
+      <section class="flex w-full max-h-full p-1 bg-containerbackground flex-wrap ">
+         <!--Elemento-->
+        <div class="bg-membergrid text-3xl text-white flex-1 p-7 m-1 ">
+          <img class="inline" src="./assets/images/avatar2.png?width=100"/>
+          <h4 class="font-serif text-2xl text-white">Presidente</h4>
+          <p class="font-serif text-xl text-white">Es la encargada de dirigir el club de ajedrez</p>
+        </div>
+        <div class="bg-membergrid text-3xl text-white flex-1 p-7 m-1 ">
+          <img class="inline" src="./assets/images/avatar5.png?width=100"/>
+          <h4 class="font-serif text-2xl text-white">Director Financiero</h4>
+          <p class="font-serif text-xl text-white">Es el encargado de administrar las finanzas del club</p>
+        </div>
+        <div class="bg-membergrid text-3xl text-white flex-1 p-7 m-1 ">
+          <img class="inline" src="./assets/images/avatar3.png?width=100"/>
+          <h4 class="font-serif text-2xl text-white">Secretaria</h4>
+          <p class="font-serif text-xl text-white">Es la encargada llevar la agenda del club</p> 
+        </div>
+        <div class="bg-membergrid text-3xl text-white flex-auto p-7 m-1 ">
+          <img  class="inline"src="./assets/images/avatar04.png?width=100"/>
+          <h4 class="font-serif text-2xl text-white">Marketing</h4>
+          <p class="font-serif text-xl text-white">Es es encargado de llevar la campaña de medios del club</p> 
+        </div>
+      </section>
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+  </body>
+</html>
